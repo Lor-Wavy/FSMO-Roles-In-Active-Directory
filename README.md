@@ -1,1 +1,3 @@
 # FSMO-Roles-In-Active-Directory
+
+Active Directory, a Microsoft system, handles network object information such as machines and users, allowing for user authentication and permission. It includes five Flexible Single Master Operation (FSMO) roles: Schema Master, Domain Naming Master, RID Master, PDC Emulator, and Infrastructure Master. Each job serves a specific purpose, such as designing data structures, eliminating name conflicts, assigning unique Security Identifier (SID) values, managing authentication and password changes, and changing group memberships. These roles can be aggregated on a single server or dispersed over numerous servers, and Active Directory provides commands for querying FSMO roles and controlling replication.
